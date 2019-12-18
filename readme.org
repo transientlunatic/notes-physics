@@ -2,7 +2,8 @@
 
 These notes are based on various notes I've made through the years, starting during my undergraduate degree.
 
-| Subject              | Plain text |
-|----------------------+------------|
-| Mathematical methods | [[file:maths.org][Maths]]      |
-|                      |            |
+| Subject               | Plain text            |
+|-----------------------+-----------------------|
+| Mathematical methods  | [[file:maths.org][Maths]]                 |
+| Statistical mechanics | [[file:stat-mech.org][Statistical mechanics]] |
+|                       |                       |
