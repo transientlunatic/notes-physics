@@ -1,0 +1,19 @@
+#+TITLE: Mathematics for physics
+
+* Number theory
+
+** Gamma function
+
+   The Gamma function is the extension of the factorial function to apply to real and complex numbers.
+
+** Stirling's Approximation
+   #+NAME: maths:stirlings-approximation
+
+   Stirling's approximation is a means of approximating large factorials, and is expressed as
+
+   \[      \log{n!} = n \log(n) - n + \mathcal{O}(log(n))      \]
+
+   which can be expressed more precisely as
+  
+   \[      n! \approx \sqrt{2 \pi n} \left( \frac{n}{e}  \right)^n .      \]
+
