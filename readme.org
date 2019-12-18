@@ -1,0 +1,8 @@
+#+TITLE: Notes on physics
+
+These notes are based on various notes I've made through the years, starting during my undergraduate degree.
+
+| Subject              | Plain text |
+|----------------------+------------|
+| Mathematical methods | [[file:maths.org][Maths]]      |
+|                      |            |
