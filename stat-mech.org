@@ -1,0 +1,10 @@
+#+TITLE: Statistical mechanics
+#+AUTHOR: Daniel Williams
+
+* Useful mathematics
+
+  There are a number of useful approximations and results which will be needed in these notes.
+
+  + [[file:maths.org::maths:stirlings-approximation][Stirling's approximation]]
+  + [[file:maths.org:gamma-function][The Gamma function]]
+    
