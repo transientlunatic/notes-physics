@@ -3,8 +3,14 @@
 * Number theory
 
 ** Gamma function
+   #+NAME: maths:gamma-function
 
    The Gamma function is the extension of the factorial function to apply to real and complex numbers.
+
+   If $n \in \mathbb{N}$  then  
+   \[ \Gamma(n) = (n-1)!  \]
+   such that
+   \[ \Gamma(t) = \int_0^{\infty} x^{t-1} e^{-x} \dd{x} \]
 
 ** Stirling's Approximation
    #+NAME: maths:stirlings-approximation
