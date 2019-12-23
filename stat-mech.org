@@ -13,10 +13,31 @@
 
 ** States
 *** Microstate
+
+    A microstate is a detailed description of the constituent components of a macrostate, e.g.
+
+    1. Classically, the position and momentum of each particle in the state;
+    2. Quantum mechanically, the state vector for each particle.
+
 *** Macrostate
 
+    A macrostate is a description of a system which can be described by  a few parameters, for example, temperature, pressure, internal energy, and volume.
+
+
 ** Ensembles
+
 *** Microcanonical ensemble
+
+    The microcanonical ensemble represents the possible microstates of a  mechanical system which have the same fixed total energy, and  particle number.  All elements have the same volume, particle number, and total energy.
+
 *** Canonical ensemble
+
+    This ensemble describes a closed system which is in contact with a heat bath. 
+    The total energy of each microstate is not constrained to be identical, with each system weighted by the Boltzmann factor. 
+    The volume, particle number, and temperature are fixed.
+
 *** Grand canonical ensemble
+
+    In this ensemble neither energy nor particle number are fixed, so temperature and chemical potential must be specified.
+    This describes an open system.
 
