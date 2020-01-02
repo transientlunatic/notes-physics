@@ -1,1 +1,267 @@
-../nat-lang/gaelic.org
+#+TITLE: Scottish Gaelic
+#+layout: org
+
+* Grammar
+** Pronouns
+
+   |            | 1s   | 2s           | 3sm  | 3sf | 1p    | 2p     | 3p     |
+   |------------+------+--------------+------+-----+-------+--------+--------|
+   | Personal   | mi   | thu          | e    | i   | sinn  | sibh   | iad    |
+   | Possessive | mo   | do           | a*   | a   | ar    | bhur   | an /am |
+   | Emphatic   | mise | thusa / tusa | esan | ise | sinne | sibshe | iadsan |
+
+** Nouns
+*** Number
+    Gàidhlig has three numbers, singular, dual, and plural.
+
+    The dual is identical in form to the singular for masculine nouns, and identical to the locative case for feminine nouns.
+
+    _Example_
+    dà bhalach - Two boys
+    dà craoibh - Two trees 
+
+** Verbs
+*** The infinitive & verbal noun
+
+        The infinitive can be formed by aspirating the verbal noun, and prefixing the particle a' (or a dh' if the verb starts with a vowel or f).
+
+    _Examples_
+    pòsadh → a phòsadh
+    ag òl → a dh'òl
+
+    
+    
+*** Mood
+**** Conditional
+**** Imperative
+
+*** Tense
+**** Present tense
+
+     There is no specific present tense in Gàidhlig, and instead it relies on the use of a copula, such as /is/, or the verb /bi/ and the verbal noun.
+     This is similar to English, and the present tense can be imitated by casting a sentence in the progressive aspect.
+
+     _Examples_
+     /Tha mi a' dol ann/ - I'm going there, lit. I go there.
+     /Tha mi a' bruidhinn/ - I speak, lit. I am at speaking.
+
+     It is also possible to use the future tense if the action is habitual.
+
+     _Examples_
+     /Ithidh mi a' bhiadh a h-uile latha/ - I eat food everyday, lit. I *will* eat food every day.
+
+**** Future tense
+
+    
+
+
+*** Bi
+    The verb "to be". Often considered the "substansive be" compared to /Is/ which is used as  a copula.
+
+    _Summary_
+
+    | Mood  | Voice  | Tense   | Independent | Negative | Dependent | Dependent negative |
+    |-------+--------+---------+-------------+----------+-----------+--------------------|
+    | Basic | Active | Present | tha         | eil      | bheil     | eil                |
+
+    _Paradigm_
+
+    | Present affirmative |              | Present negative |                 |
+    |---------------------+--------------+------------------+-----------------|
+    | tha mi              | I am         | Chan eil mi      | I am not        |
+    | tha thu             | You are      | Chan eil thu     | You are not     |
+    | tha e/i             | He / She is  | Chan eil e/i     | He / She is not |
+    | tha sinn            | We are       | Chan eil sinn    | We are not      |
+    | tha sibh            | You are      | Chan eil sibh    | You are not     |
+    | tha iad             | They are     | Chan eil iad     | They are not    |
+    | thatar              | There is     | Chan eilear      | There is not    |
+
+    
+    The present dependent is used with the particles "an" or "a" for an affirmative question, or "nach" for a negative question.
+    The bh is dropped, however, in the negative.
+
+    | Present dependent |              |                |               |
+    |-------------------+--------------+----------------+---------------|
+    | a bheil mi        | Am I?        | nach eil mi    | Am I not?     |
+    | a bheil thu       | Are you?     | nach eil thu   | Are you not?  |
+    | a bheil e/i       | Is he / she? | nach eil e/i?  | Is he not?    |
+    | a bheil sinn?     | Are we?      | nach eil sinn? | Are we not?   |
+    | a bheil sibh?     | Are you?     | nach eil sibh? | Are you not?  |
+    | a bheil iad?      | Are they?    | nach eil iad?  | Are they not? |
+    | a beilear?        | Is there?    | nach eilear    | Is there not? |
+
+    The habitual present tense (e.g. I swim every day) is represented in the future tense in Gàidhlig.
+
+
+* Vocabulary
+** Expressions
+   | Gàidhlig                        | English                  | Notes |
+   |---------------------------------+--------------------------+-------|
+   | Ciamar a tha thu (sibh)         | How are you?             |       |
+   | Cò ris a tha an t-sìde coltach? | What's the weather like? |       |
+   |                                 |                          |       |
+
+** Verbs
+
+   | Imperative | English | Verbal Noun      | Infinitive       |
+   |------------+---------+------------------+------------------|
+   | ceannaich  | Buy     | a' ceannach      | a cheannach      |
+   | iarr       | Ask     | ag iarraidh      | ag iarraidh      |
+   | iarr       | Want    | ag iarraidh      | ag iarraidh      |
+   | fairich    | Feel    | a' faireachdainn | a fhaireachdainn |
+   | seall      | Look    | a' sealltainn    | a shealltainn    |
+   | feum       | Need    | a' feumaidh      | a fheumaidh      |
+   | faic       | See     | a' faicinn       | a fhaicinn       |
+   
+** roimhearan : prepositions
+
+   Note that Gàidhlig makes extensive use of /prepositional pronouns/ which are listed in last seven columns of the table.
+
+   | English  | Gàidhlig | Gov | 1s    | 2s    | 3sm  | 3sf    | 1p     | 2p      | 3p     |
+   |----------+----------+-----+-------+-------+------+--------+--------+---------+--------|
+   | on, upon | air      | dat | orm   | ort   | air  | oirre  | oirnn  | oirbh   | orra   |
+   | at       | aig      | dat | agam  | agad  | aige | aice   | againn | agaibh  | aca    |
+   | from     | à        |     | asam  | asad  | às   | aiste  | asainn | asaibh  | asta   |
+   | with     | le       |     | leam  | leat  | leis | leatha | leinn  | leibh   | leotha |
+   | in       | ann      | dat | annam | annad | ann  | innte  | annain | annaibh | annta  |
+
+** aodach : clothes
+
+   | English    | Gàidhlig     | Plural | Gender |
+   |------------+--------------+--------+--------|
+   | Shirt      | leìne        |        |        |
+   | T-Shirt    | leìne-t      |        |        |
+   | Trousers   | briogais     |        | f      |
+   | Underwear  | fo-aodach    |        | m      |
+   | Skirt      | sgiort       |        |        |
+   | Kilt       | fèileadh     |        | m      |
+   | Shoe       | bròg         |        | f      |
+   | Shoes      | brògan       |        | f      |
+   | Coat       | còta         |        |        |
+   | Boots      | bòtannan     |        |        |
+   | Hat        | bonaid       |        |        |
+   | Underpants | drathais     |        |        |
+   | Sweater    | geansaidh    | -ean   | m      |
+   | Glasses    | speuclairean |        |        |
+   | Dress      | dreasa       |        |        |
+   | Watch      | uaireadair   |        |        |
+   | Jacket     | seacaid      |        |        |
+   | Socks      | stocainnean  |        |        |
+
+** biadh : food
+
+   | English  | Gàidhlig | Gender |
+   |----------+----------+--------|
+   | Butter   | ìm       |        |
+   | Cake     | cèic     |        |
+   | Ham      | hama     |        |
+   | Bread    | aran     |        |
+   | Fish     | iasg     |        |
+   | Potato   | buntàta  |        |
+   | Herring  | sgadan   |        |
+   | Cheese   | càise    |        |
+   | Water    | uisge    |        |
+   | Porridge | brochan  |        |
+   | Haggis   | taigeis  |        |
+   | Rice     | rìs      |        |
+   | Pepper   | piobar   |        |
+   | Soup     | brot     |        |
+   | Salt     | salann   |        |
+
+** teaghlach : family   
+   | Gàidhlig  | English     | Plural        | Genitive | Gender |
+   |-----------+-------------+---------------+----------+--------|
+   | athair    | father      | athraichean   | athar    | m      |
+   | màthair   | mother      | -thraichean   | -thar    | f      |
+   | piuthar   | sister      | peathraichean | peathar  | f      |
+   | bràthair  | brother     | bràithrean    | -ar      | m      |
+   | seanair   | grandfather | -ean          | -nar     | m      |
+   | seanmhair | grandmother | -ean          | -mhar    | f      |
+   | antaidh   | aunt        | -ean          |          | f      |
+   | uncail    | uncle       | -ean          |          | m      |
+
+** àireamhan : numbers
+
+   | English | Gàidhlig | Gender |
+   |---------+----------+--------|
+   | One     | aon*     |        |
+   | Two     | dà*      |        |
+   | Three   | trì      |        |
+   | Four    | Ceithir  |        |
+   | Five    | Còig     |        |
+   | Six     | sia      |        |
+   | Seven   | seachd   |        |
+   | Eight   | ochd     |        |
+   | Nine    | naoi     |        |
+   | Ten     | deich    |        |
+** sìde : weather
+
+      | Gàidhlig    | Plural | Gen.   | English | Gender |
+      |-------------+--------+--------+---------+--------|
+      | tàirneanach | -aich  |        | thunder | m      |
+      | fearthainn  |        | -e     | rain    | f      |
+      | grian       | -an    | frèine | sun     | f      |
+      | sneachd     | -an    | -a     | snow    | m      |
+      | ceò         |        | -tha   | fog     | m      |
+      | sioc        |        |        | frost   | m      |
+      |             |        |        |         |        |
+
+
+      | Gàidhlig   | Comparative | English  |
+      |------------+-------------+----------|
+      | grianach   | -aiche      | sunny    |
+      | fliuch     | fliche      | wet      |
+      | gaothach   | -aiche      | windy    |
+      | blàth      | -àithe      | warm     |
+      | teth       | teotha      | hot      |
+      | fuar       | fhuaire     | cold     |
+      | ceòthar    | -aire       | misty    |
+      | reòthanach | -aiche      | frosty   |
+      | grabhail   | -e          | horrible |
+      | garbh      | gairbhe     | wild     |
+      | doimheal   | -mheile     | stormy   |
+      | coltach    | -aiche      | like     |
+
+** time
+
+   | Gàidhlig   | English   |
+   |------------+-----------|
+   | a-nis      | now       |
+   | an-dràsta  | right now |
+   | an-diugh   | today     |
+   | a-màireach | tomorrow  |
+
+    | Gàidhlig          | Plural    | Gen. | English   | Gender |
+    |-------------------+-----------+------+-----------+--------|
+    | làtha             | làthean   |      | day       | m      |
+    | seachdain         | -e        | -ean | week      | f      |
+    | bliadhna          | -naichean |      | year      | f      |
+    |-------------------+-----------+------+-----------+--------|
+    | Diluain (DiL)     |           |      | Monday    | m      |
+    | Dimàirt (DiM)     |           |      | Tuesday   | m      |
+    | Diciadain (Dic)   |           |      | Wednesday | m      |
+    | Diardaoin (DiA)   |           |      | Thursday  | m      |
+    | Dihaoine (DiH)    |           |      | Friday    | m      |
+    | Disathairne (DiS) |           |      | Saturday  | m      |
+    | Didòmhnaich (DiD) |           |      | Sunday    | m      |
+    |-------------------+-----------+------+-----------+--------|
+    |                   |           |      |           |        |
+** dath : colour
+   
+   | Gàidhlig | English    | Comparative | Note                        |
+   |----------+------------+-------------+-----------------------------|
+   | bàn      | white      |             |                             |
+   | glas     | grey       |             |                             |
+   | dubh     | black      |             |                             |
+   | dearg    | red        |             | For light or bright red     |
+   | ruadh    | red        |             | For a dark red              |
+   | orainds  | orange     |             |                             |
+   | donn     | brown      |             |                             |
+   | buidhe   | yellow     |             |                             |
+   | uaine    | green      |             |                             |
+   | gorm     | blue       |             |                             |
+   | gorm     | green      |             | When used of natural things |
+   | liath    | light blue |             |                             |
+   | glas     | green      |             | Colour of grass             |
+   | purpaidh | purple     |             |                             |
+   | pinc     | pink       |             |                             |
