@@ -1,4 +1,5 @@
 #+TITLE: Mathematics for physics
+#+has_math: True
 
 * Number theory
 
