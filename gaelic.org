@@ -102,18 +102,42 @@
    |                                 |                          |       |
 
 ** Verbs
+   #+NAME: verbs
 
-   | Imperative | English | Verbal Noun      | Infinitive       |
-   |------------+---------+------------------+------------------|
-   | ceannaich  | Buy     | a' ceannach      | a cheannach      |
-   | iarr       | Ask     | ag iarraidh      | ag iarraidh      |
-   | iarr       | Want    | ag iarraidh      | ag iarraidh      |
-   | fairich    | Feel    | a' faireachdainn | a fhaireachdainn |
-   | seall      | Look    | a' sealltainn    | a shealltainn    |
-   | feum       | Need    | a' feumaidh      | a fheumaidh      |
-   | faic       | See     | a' faicinn       | a fhaicinn       |
+   | Imperative | English    | Verbal Noun      | Infinitive       |
+   |------------+------------+------------------+------------------|
+   | ceannaich  | Buy        | a' ceannach      | a cheannach      |
+   | iarr       | Ask        | ag iarraidh      | ag iarraidh      |
+   | iarr       | Want       | ag iarraidh      | ag iarraidh      |
+   | fairich    | Feel       | a' faireachdainn | a fhaireachdainn |
+   | seall      | Look       | a' sealltainn    | a shealltainn    |
+   | feum       | Need       | a' feumaidh      | a fheumaidh      |
+   | faic       | See        | a' faicinn       | a fhaicinn       |
+   | rach       | Go         | a' dol           |                  |
+   |            | Hear       | a' cluinntinn    | a chluinntinn    |
+   | tuig       | Understand | a' tuigsinn      |                  |
+   | fuirich    | Live       | a' fuireach      |                  |
+   | seinn      | Sing       | a' seinn         |                  |
+   | sreap      | Climb      | a' sreap         |                  |
+   | bruidhinn  | Talk       | a' bruidhinn     |                  |
+   | snàmh      | Swim       | a' snàmh         |                  |
+   | leugh      | Read       | a' leughadh      |                  |
+   | caidil     | Sleep      | a' cadal         |                  |
+   | coisich    | Walk       | a' coiseachd     |                  |
+   | sgrìobh    | Write      | a' sgrìobhadh    |                  |
+   | ruith      | Run        | a' ruith         |                  |
+   | faigh      | Get        | a' faighinn      |                  |
+   | goid       | Steal      | a' goid          |                  |
+   | cum        | Keep       | a' cumail        |                  |
+   | dèan       | Do / Make  | a' dèanamh       |                  |
+   | ionnsaich  | Learn      | ag ionnsachadh   |                  |
+   | obraich    | Work       | ag obair         |                  |
+   | ithid      | Eat        | ag ithe          |                  |
+   | òl         | Drink      | ag òl            |                  |
    
 ** roimhearan : prepositions
+   #+CUSTOM_ID: prepositions
+   #+NAME: roimhearan
 
    Note that Gàidhlig makes extensive use of /prepositional pronouns/ which are listed in last seven columns of the table.
 
