@@ -8,13 +8,44 @@ You're welcome to use these notes, but they may contain errors, so proceed with 
 
 Right now you're welcome to use these notes under the terms of the CC-NC-ND 4.0 license.
 
-* Useful mathematics
 
-  There are a number of useful approximations and results which will be needed in these notes.
+You'll probably find these notes take a slightly unusual approach (and perhaps an increasingly unusual approach as I update them). 
+From the name of this branch of physics it's clear that there are likely to be close relationships with statistics and information theory, and as I move through various important concepts in statistical mechanics I'll try and draw attention to these.
+The development of both fields has generally involved substantial cross-pollination, with sampling techniques in statistics often naming quantities using terms such as "temperature", to take an example.
 
-  + [[file:maths.org::maths:stirlings-approximation][Stirling's approximation]]
-  + [[file:maths.org::gamma-function][The Gamma function]]
-    
+
+* Introducing ignorance
+  A central pillar of statistical mechanics is ignorance.
+  Consider some system which is able to have some specific state. 
+  If the system is observed \(N\) times on \( n_{i} \) occasions it is observed to be in state \( i \).
+
+  Our *ignorance*, \(I \), about this system is related to the number of different ways in which the system can then take a state.
+
+  \begin{equation}
+  I = \frac{N!}{n_0! n_1! \cdots}
+  \end{equation}	     
+
+Turning to Stirling's approximation of the factorial, which states that as \( \lim_{x \to \infty} \log x! = x \log x - x \) to leading order, then we can re-express the ignorance in the form
+
+\[ \log I = \log(\frac{N!}{n_0! n_1! \cdots}) = \log N! - \log(n_0! n_1! \cdots n_i!) \approx N \log N - N - \sum n_i \log n_i + \sum n_i. \]
+
+A related quantity related to this expression is the *entropy*, \(S\), which is defined
+
+\begin{equation}
+S = \frac{1}{N} \log I.
+\end{equation}
+
+By considering the probability, \(p_i = n_i / N \) , of a given state we can see that the entropy can also take the form
+
+\begin{equation}
+S = - \sum_i p_i \log p_i.
+\end{equation}
+
+Here an interesting parallel between statistical mechanics and statistical information (or at least the Bayesian approach to statistics) appears.
+If we know nothing about our system /a priori/, how can we determine the correct values of each \( n_i \), or equivalently, how do we determine the probability that a system is in a given state?
+
+
+  
 
 * Basic definitions
 
@@ -228,3 +259,11 @@ Noting that $$\begin{aligned}
 &= \pdv{\beta} \qty[ \qty(\sum_i e^{-\beta E_i})^{-1} \sum_i \qty(-E_i e^{\beta E_i})] \\
 &= \star\end{aligned}$$ then $$\label{eq:13}
   \Delta E^2 = - \pdv{U}{\beta}$$ which is positive definite.
+
+
+* Useful mathematics
+
+  There are a number of useful approximations and results which will be needed in these notes.
+
+  + [[file:maths.org::maths:stirlings-approximation][Stirling's approximation]]
+  + [[file:maths.org::gamma-function][The Gamma function]]
