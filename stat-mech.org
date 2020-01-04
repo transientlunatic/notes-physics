@@ -27,7 +27,7 @@ The development of both fields has generally involved substantial cross-pollinat
 
 Turning to Stirling's approximation of the factorial, which states that as \( \lim_{x \to \infty} \log x! = x \log x - x \) to leading order, then we can re-express the ignorance in the form
 
-\[ \log I = \log(\frac{N!}{n_0! n_1! \cdots}) = \log N! - \log(n_0! n_1! \cdots n_i!) \approx N \log N - N - \sum n_i \log n_i + \sum n_i. \]
+\[ \log I = \log(\frac{N!}{n_0! n_1! \cdots n_i!}) = \log N! - \log(n_0! n_1! \cdots n_i!) \approx N \log N - N - \sum n_i \log n_i + \sum n_i. \]
 
 A related quantity related to this expression is the *entropy*, \(S\), which is defined
 
