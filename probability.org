@@ -1,3 +1,6 @@
+#+TITLE: Probability
+#+layout: org
+
 * Probability
   \label{sec:probability:basic}
 
