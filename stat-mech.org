@@ -13,6 +13,7 @@ You'll probably find these notes take a slightly unusual approach (and perhaps a
 From the name of this branch of physics it's clear that there are likely to be close relationships with statistics and information theory, and as I move through various important concepts in statistical mechanics I'll try and draw attention to these.
 The development of both fields has generally involved substantial cross-pollination, with sampling techniques in statistics often naming quantities using terms such as "temperature", to take an example.
 
+---
 
 * Introducing ignorance
   A central pillar of statistical mechanics is ignorance.
@@ -22,23 +23,23 @@ The development of both fields has generally involved substantial cross-pollinat
   Our *ignorance*, \(I \), about this system is related to the number of different ways in which the system can then take a state.
 
   \begin{equation}
-  I = \frac{N!}{n_0! n_1! \cdots}
-  \end{equation}	     
+  I = \frac{N!}{n_0! n_1! \cdots n_i!}
+  \end{equation}
 
-Turning to Stirling's approximation of the factorial, which states that as \( \lim_{x \to \infty} \log x! = x \log x - x \) to leading order, then we can re-express the ignorance in the form
+Turning to Stirling's approximation of the factorial, which states that as $ \lim_{x \to \infty}  \log x! = x \log x - x $ to leading order, then we can re-express the ignorance in the form
 
-\[ \log I = \log(\frac{N!}{n_0! n_1! \cdots n_i!}) = \log N! - \log(n_0! n_1! \cdots n_i!) \approx N \log N - N - \sum n_i \log n_i + \sum n_i. \]
+\begin{align*}\log I &= \log(\frac{N!}{n_0! n_1! \cdots n_i!}) \\\\ &= \\log N! - \\log(n_0! n_1! \cdots n_i!) \\\\ &\approx N \\log N - N - \sum n_i \\log n_i + \sum n_i. \end{align*}
 
 A related quantity related to this expression is the *entropy*, \(S\), which is defined
 
 \begin{equation}
-S = \frac{1}{N} \log I.
+S = \frac{1}{N} \\log I.
 \end{equation}
 
 By considering the probability, \(p_i = n_i / N \) , of a given state we can see that the entropy can also take the form
 
 \begin{equation}
-S = - \sum_i p_i \log p_i.
+S = - \sum_i p_i \\log p_i.
 \end{equation}
 
 Here an interesting parallel between statistical mechanics and statistical information (or at least the Bayesian approach to statistics) appears.
@@ -193,8 +194,8 @@ denote $\set{a_i^{*}}$. This clearly satisfies the constraints, and for
 all proactical purposes it's the only one which we need to consider.
 
 For large $A$ we expect $\Omega$ will be very strongly peaked, so let's
-maximise $\Omega$, or, as it happens, maximise $\frac{\log(\Omega)}{A}$,
-and define $$H = \frac{\log(\Omega)}{A}$$ We maximise $H$ subject to the
+maximise $\Omega$, or, as it happens, maximise $\frac{\\log(\Omega)}{A}$,
+and define $$H = \frac{\\log(\Omega)}{A}$$ We maximise $H$ subject to the
 constraints
 
 $$\begin{aligned}
@@ -202,26 +203,26 @@ $$\begin{aligned}
 \sum a_i E_i &= E~{tot}\end{aligned}$$
 
 $$\begin{aligned}
-  H = \frac{\log(\Omega)}{A} &= \frac{1}{A} \log( \frac{A!}{a_1! a_2! \cdots}) \\
-&= \frac{1}{A} \qty[ \log(A!) - \log(a_1! a_2! \cdots)]\\
-&= \frac{1}{A} \qty[ A \log(A) - A - \floor{\sum_i a_i \log(a_i) - a_i}]\end{aligned}$$
+  H = \frac{\\log(\Omega)}{A} &= \frac{1}{A} \\log( \frac{A!}{a_1! a_2! \cdots}) \\
+&= \frac{1}{A} \qty[ \\log(A!) - \\log(a_1! a_2! \cdots)]\\
+&= \frac{1}{A} \qty[ A \\log(A) - A - \floor{\sum_i a_i \\log(a_i) - a_i}]\end{aligned}$$
 
 Now we define the probability of being in state $a_i$ as
 $$P_i = \frac{a_i}{A}$$ thus $\sum P_i = 1$.
 
 So $$\begin{aligned}
-  A &= \frac{1}{A} \qty[ A \log(A) - A - \qty{ \sum_i A P_i \log(A P_i) - A P_i}] \\
-&= \frac{1}{A} \qty[ A \log(A) - A - A \qty{ \sum_i P_i \qty[\log(A) + \log(P_i)] - P_i}]\end{aligned}$$
-Cancellations mean that $$H = - \sum P_i \log(P_i)$$ which needs to be
+  A &= \frac{1}{A} \qty[ A \\log(A) - A - \qty{ \sum_i A P_i \\log(A P_i) - A P_i}] \\
+&= \frac{1}{A} \qty[ A \\log(A) - A - A \qty{ \sum_i P_i \qty[\\log(A) + \\log(P_i)] - P_i}]\end{aligned}$$
+Cancellations mean that $$H = - \sum P_i \\log(P_i)$$ which needs to be
 maximised.
 
 Let $\alpha$, $\beta$ be Lagrange multipliers, and
-$$f = - \sum_i P_i \log(P_i) + \alpha(1 - \sum_i P_i) + \beta( u - \sum_i P_i E_i )$$
+$$f = - \sum_i P_i \\log(P_i) + \alpha(1 - \sum_i P_i) + \beta( u - \sum_i P_i E_i )$$
 We then form the differential,
-$$\dd{f} = \sum_i \set{ - \log(P_i) - 1 - \alpha - \beta E_i}
+$$\dd{f} = \sum_i \set{ - \\log(P_i) - 1 - \alpha - \beta E_i}
 \dd{P_i} = 0$$ This must hold for all values of $i$, so we can set each
 side to equal $0$ independently,
-$$\therefore - \log(P_i) - 1 -\alpha - \beta E_i =0 \quad \forall i$$
+$$\therefore - \\log(P_i) - 1 -\alpha - \beta E_i =0 \quad \forall i$$
 $$P_i = \exp( -1 -\alpha -\beta E_i)$$ and we also know $\sum P_i=1$, so
 $$\begin{aligned}
   \sum \exp(-1 -\alpha - \beta E_i) &= 1 \\
@@ -244,11 +245,11 @@ results of thermodynamics.
 
 /The mean energy in a canonical ensemble/ is given as
 $$\ev{E} = \sum P_i E_i = \sum \frac{1}{Z} E_i \exp(-\beta E_i)$$
-Considering that $$\pdv{\beta} \log(Z) = \frac{1}{Z} \pdv{\beta}(Z)$$
+Considering that $$\pdv{\beta} \\log(Z) = \frac{1}{Z} \pdv{\beta}(Z)$$
 and $$Z = Z = \sum_i \exp(- \beta E_i)$$ then
-$$\pdv{\beta} \log(Z) = - \frac{1}{Z} \sum_i E_i \exp(- \beta E_i)$$ and
+$$\pdv{\beta} \\log(Z) = - \frac{1}{Z} \sum_i E_i \exp(- \beta E_i)$$ and
 so $$\label{eq:12}
- U = \ev{E} = - \pdv{\beta} \log(Z)$$
+ U = \ev{E} = - \pdv{\beta} \\log(Z)$$
 
 /The energy fluctuations in a canonical ensemble/ are $$\begin{aligned}
 \Delta E^2 &= \ev{E_i - \ev{E}}^2 = \ev{E_i^2 - 2 E_i \ev{E} + \ev{E}^2} \\

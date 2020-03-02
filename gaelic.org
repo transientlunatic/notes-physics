@@ -7,8 +7,13 @@
    |            | 1s   | 2s           | 3sm  | 3sf | 1p    | 2p     | 3p     |
    |------------+------+--------------+------+-----+-------+--------+--------|
    | Personal   | mi   | thu          | e    | i   | sinn  | sibh   | iad    |
-   | Possessive | mo   | do           | a*   | a   | ar    | bhur   | an /am |
+   | Possessive | mo*  | do*          | a*   | a   | ar    | bhur   | an /am |
    | Emphatic   | mise | thusa / tusa | esan | ise | sinne | sibshe | iadsan |
+   | Abstract   |      |              | fear | tè  |       |        |        |
+
+** Adjectives
+   + Adjectives are often lenited by the noun which they apply to, however this occurs only for /attributive/ and not /predicative/ adjectives.
+     For example, /bròg bheag/ (a small shoe) but /Tha a' bhròg beag/ (the shoe is small).
 
 ** Nouns
 *** Number
@@ -19,6 +24,26 @@
     _Example_
     dà bhalach - Two boys
     dà craoibh - Two trees 
+
+
+** Masculine nouns
+
+*** /balach/
+    + Forms plural through slenderisation
+    + Takes /am/ for the definite article
+    + Nouns which slenderise for the plural lenite their adjectives and add /-a/ to (monosyllabic) adjectives in the plural
+    + Nouns which slenderise for the plural add -/(a)ibh for the vocative
+
+    | Case      | Singular               | Plural                 |
+    |-----------+------------------------+------------------------|
+    | Nom. Ind. | balach beag            | balaich bheaga         |
+    | Gen. Ind. | taigh balaich bhig     | taigh bhalach beaga    |
+    | Dat. Ind. | air balach beag        | air balaich bheaga     |
+    |-----------+------------------------+------------------------|
+    | Nom. Def. | am balach beag         | na balaich bheaga      |
+    | Voc. Def. | a bhalaich bhig!       | a bhalachaibh beaga!   |
+    | Gen. Def. | taigh a' bhalaich bhig | taigh nam balach beaga |
+    | Dat. Def. | air a' bhalach bheag   | air na balaich bheaga  |
 
 ** Verbs
 *** The infinitive & verbal noun
@@ -92,8 +117,36 @@
 
     The habitual present tense (e.g. I swim every day) is represented in the future tense in Gàidhlig.
 
+** Adverbs
+   Adverbs are often formed from adjectives by prepending the word /gu/ in the sentence.
+   e.g.
+   | Adjective | Adverb  |
+   |-----------+---------|
+   | math      | gu math |
+   | dona      | gu dona |
+   | snog      | gu snog |
+
 
 * Vocabulary
+
+** Interrogatives
+
+   | Gàidhlig   | Bearla    |
+   |------------+-----------|
+   | Cò?        | Who?      |
+   | Ciamar?    | How?      |
+   | Cia mheud? | How many? |
+   |            |           |
+
+** Conjunctions
+
+   | Gàidhlig | Bearla |
+   |----------+--------|
+   | ach      | but    |
+   | agus     | and    |
+   | is       | and    |
+   | no       | or     |
+
 ** Expressions
    | Gàidhlig                        | English                  | Notes |
    |---------------------------------+--------------------------+-------|
@@ -148,6 +201,10 @@
    | from     | à        |     | asam  | asad  | às   | aiste  | asainn | asaibh  | asta   |
    | with     | le       |     | leam  | leat  | leis | leatha | leinn  | leibh   | leotha |
    | in       | ann      | dat | annam | annad | ann  | innte  | annain | annaibh | annta  |
+
+*** having only
+    The expression /chan eil agam ach not/ can be translated as "I only have a pound", and is the way that /only having/ is expressed in Gàidhlig, despite /ach/ ordinarily meaning "but".
+    The expression can therefore literally translate as "I haven't but a pound". [SG12, p5]
 
 ** aodach : clothes
 
@@ -285,7 +342,36 @@
    | uaine    | green      |             |                             |
    | gorm     | blue       |             |                             |
    | gorm     | green      |             | When used of natural things |
-   | liath    | light blue |             |                             |
+   | liath    | light blue |             | Grey when hair              |
    | glas     | green      |             | Colour of grass             |
    | purpaidh | purple     |             |                             |
    | pinc     | pink       |             |                             |
+
+** body
+
+*** adjectives
+   | Gàidhlig | English | Comparative | Note |
+   |----------+---------+-------------+------|
+   | maol     | bald    |             |      |
+   | gràndda  | ugly    |             |      |
+   | goirt    | sore    |             |      |
+   | fallain  | healthy |             |      |
+   | tinn     | ill     |             |      |
+   | caol     | thin    |             |      |
+   | salach   | dirty   |             |      |
+   | glan     | clean   |             |      |
+
+*** nouns
+   | Gàidhlig   |   | Bearla |
+   |------------+---+--------|
+   | falt       |   | hair   |
+   | broilleach | m | chest  |
+   | beul       |   | mouth  |
+   | aodann     | m | face   |
+   | cluas      | f | ear    |
+   | sùil       | f | eye    |
+   | sròn       | f | nose   |
+   | làmh       |   | hand   |
+   | cas        | f | leg    |
+   | teanga     | f | tongue |
+   | druim      | f | back   |
